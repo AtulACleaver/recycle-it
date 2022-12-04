@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import "./css/Details.css";
 import { Tags } from "./Tags";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 const Details = () => {
   const tags = useLocation().state;
@@ -29,6 +30,7 @@ const Details = () => {
           );
         })}
       </div>
+      <Footer />
     </>
   );
 };

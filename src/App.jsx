@@ -5,6 +5,7 @@ import { items } from "./Items.jsx";
 import Scroll from "./Components/Scroll";
 import "./css/App.css";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 class App extends Component {
   constructor() {
@@ -54,6 +55,7 @@ class App extends Component {
               <CardList items={filteredItems} />
             </Scroll>
           </div>
+          <Footer />
         </div>
       );
     }

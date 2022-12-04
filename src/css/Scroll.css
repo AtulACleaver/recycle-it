@@ -1,0 +1,19 @@
+.scroll {
+    margin: 4rem 0;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    /* overflow-Y: scroll; */
+    height: 800px;
+    width: 85%;
+    background-color: #2FA670;
+    padding: 1rem;
+    border-radius: 20px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}

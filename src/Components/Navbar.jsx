@@ -10,9 +10,8 @@ function Navbar() {
         <div className="container-fluid">
           <a
             className="navbar-brand"
-            target="_blank"
             rel="noreferrer"
-            href="https://recycle-it.typedream.app/"
+            href="/"
           >
             <img
               src={logo}
